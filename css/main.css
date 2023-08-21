@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    width: 70%;
+    height: 100%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.drop-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    min-height: 50%;
+}
+
+.square {
+    width: 150px;
+    align-content: center;
+    background-color: #e74c3c;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+}
