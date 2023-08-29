@@ -1,7 +1,4 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     margin: 0;
 }
@@ -16,7 +13,6 @@ body {
 
 .card-container {
     display: flex;
-    justify-content: space-between;
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -30,13 +26,14 @@ body {
     text-align: center;
     line-height: 100px;
     cursor: pointer;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .drop-container {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 10px;
     margin-bottom: 20px;
     min-height: 50%;
 }
