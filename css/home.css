@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth ;
+}
+
+nav .title {
+    font-family: Bebas Neue; 
+    font-size: 32px;
+    display: inline-block;
+    font-weight: bold;
+    color: #8F43EE;
+}
+
+.nav-items{
+    margin-left: 20px;
+}
+
+
+.hero {
+
+    height: 100vh;
+    width:  100wv;
+    background-color: black;
+
+    background-image: url('../svg/home2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 100px 15vw;
+}
+
+.hero-content { 
+    margin-top: 200px;
+    display: flex;
+
+}
+
+.text {
+    flex: 1;
+    max-width: 50%;
+}
+
+.hero-content .title {
+    
+    font-family: Anton;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 5vw;
+    line-height: 6vw;
+
+}
+
+.title-color{
+    color: #8F43EE;
+    display: inline;
+}
+
+.sub-title {
+    margin-top: 10px ;
+}
+
+
+.image-container {
+}
+
+
+.image {
+    position: absolute;
+    width: 40%;
+    top: 100px;
+    right: -00px;
+    
+}
+
+
+.btn{
+    background-color: #8F43EE;
+    color:white;
+}
+
+.btn:hover{
+    transition: 0.5s;
+    background-color: black;
+    color:white;
+}
+
+.learn{
+    height: 50vh;
+    width:  100wv;
+    padding: 200px 15vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .learn .title{
+    text-align: center;
+    font-family: Anton;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 5vw;
+    line-height: 6vw;
+    margin-bottom: 100px;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+.learn-text {
+    margin: 100px 0px;
+}
+
+.carousel-size{
+    width:  100wv;
+    padding: 200px 15vw;
+    background-image: url('../svg/home.svg');
+    
+}
